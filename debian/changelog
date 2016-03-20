@@ -1,9 +1,15 @@
-libregeek-archive-keyring (0.2+bsos-1) brewmaster; urgency=low
+libregeek-archive-keyring (0.3+bsos-1) brewmaster; urgency=low
 
   * Implement more than one key in keyring
   * This will allow collaboration
   * Also allows signing different respositories with different keys
   * The first phase will be signing brewmaster_beta packages with mtdeguzis
+
+ -- Michael DeGuzis <mdguzis@gmail.com>  Sun, 20 Mar 2016 14:20:17 -0400
+ 
+libregeek-archive-keyring (0.2+bsos-1) brewmaster; urgency=low
+
+  * Testing for multi-key implementation
 
  -- Michael DeGuzis <mdguzis@gmail.com>  Sun, 20 Mar 2016 14:02:17 -0400
 
