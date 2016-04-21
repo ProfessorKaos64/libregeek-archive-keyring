@@ -21,3 +21,6 @@ A quick overview about this package:
 
 More information about the archive authentication feature can be found
 in the manpage apt-secure(8).
+
+For information on the involved GPG commands and operations, please see:
+https://www.gnupg.org/gph/de/manual/r1023.html
