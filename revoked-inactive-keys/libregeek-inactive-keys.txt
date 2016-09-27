@@ -1,5 +1,13 @@
 # The below keys should NOT be used
 # Growing pains learning keyrings and moving around systems ...
+# See: https://sks-keyservers.net/pks/lookup?op=index&search=Michael+DeGuzis
+
+# Revoked
+
+pub  2048R/AAAC5D5C 2015-09-17 Michael DeGuzis <mdeguzis@gmail.com>
+
+# Inactive:
+
 pub  4096R/DC1C6474 2015-09-16 Michael DeGuzis (ProfessorKaos64) <mdeguzis@gmail.com>
 pub  2048R/C08DD74E 2014-09-23 Michael DeGuzis <mdeguzis@gmail.com>
 pub  4096R/E5611704 2014-07-10 Michael T. DeGuzis <mdeguzis@gmail.com>
