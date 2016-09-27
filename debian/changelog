@@ -1,3 +1,10 @@
+libregeek-archive-keyring (0.4.1+bsos-1) brewmaster; urgency=low
+
+  * Update personal keyring
+  * Keep old persona keyring until new keyring is made permenant
+
+ -- Michael DeGuzis <mdeguzis@gmail.com>  Mon, 26 Sep 2016 22:12:17 -0400
+
 libregeek-archive-keyring (0.3+bsos-1) brewmaster; urgency=low
 
   * Implement more than one key in keyring
