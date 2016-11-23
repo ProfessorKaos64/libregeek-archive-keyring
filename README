@@ -19,8 +19,13 @@ A quick overview about this package:
   A keyring including all actively used keys to sign Release files in
   our supported releases is shipped in /usr/share/keyrings.
 
+You can list the keys within the keyring by issuing:
+
+$ gpg /usr/share/keyrings/libregeek-archive-keyring.gpg
+
 More information about the archive authentication feature can be found
 in the manpage apt-secure(8).
 
 For information on the involved GPG commands and operations, please see:
 https://www.gnupg.org/gph/de/manual/r1023.html
+
