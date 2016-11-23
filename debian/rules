@@ -10,9 +10,6 @@ override_dh_auto_build:
 	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/mdeguzis.asc
 	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/steamos-tools.asc
 	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/libregeek.asc
-	# Remove old keys
-	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --delete-keys revoked-inactive-keys/personal-keyring-legacy.asc
-	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --delete-keys revoked-inactive-keys/personal-keyring-legacy-2.asc
 
 override_dh_auto_clean:
 	rm -f *.gpg *.gpg~
