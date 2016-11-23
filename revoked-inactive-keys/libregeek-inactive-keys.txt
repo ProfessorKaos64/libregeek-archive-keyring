@@ -2,9 +2,10 @@
 # Growing pains learning keyrings and moving around systems ...
 # See: https://sks-keyservers.net/pks/lookup?op=index&search=Michael+DeGuzis
 
-# Revoked
+# Revoked / Soon to expire
 
-pub  2048R/AAAC5D5C 2015-09-17 Michael DeGuzis <mdeguzis@gmail.com>
+pub   rsa2048/AAAC5D5C 2015-09-17 [SC] [expires: 2017-01-22]
+pub   rsa4096/A44A79DB 2016-09-26 [SC] [expires: 2016-11-24]
 
 # Inactive:
 
