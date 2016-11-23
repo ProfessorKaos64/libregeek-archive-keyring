@@ -7,9 +7,9 @@ KEYRING=libregeek-archive-keyring.gpg
 
 override_dh_auto_build:
 	# Import current active keys
+	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/mdeguzis.asc
 	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/steamos-tools.asc
-	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/personal-keyring.asc
-	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/personal-keyring-legacy.asc
+	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active-keys/libregeek.asc.asc
 	# Remove old keys
 	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --delete-keys revoked-inactive-keys/personal-keyring-legacy.asc
 	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --delete-keys revoked-inactive-keys/personal-keyring-legacy-2.asc
