@@ -1,3 +1,9 @@
+libregeek-archive-keyring (0.4.6-1) jessie; urgency=low
+
+  * Fix libregeek.asc key content
+
+ -- Michael DeGuzis <mdeguzis@gmail.com>  Sat, 26 Nov 2016 04:16:55 +0000
+
 libregeek-archive-keyring (0.4.2-1) jessie; urgency=low
 
   * Reupload
