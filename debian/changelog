@@ -1,3 +1,9 @@
+libregeek-archive-keyring (0.5.0-1) brewmaster; urgency=low
+
+  * Keyring expirations updated 
+
+ -- Michael DeGuzis <mdeguzis@gmail.com>  Sun, 19 Nov 2017 19:40:40 -0500
+
 libregeek-archive-keyring (0.4.6-1) brewmaster; urgency=low
 
   * Reupload for SteamOS
