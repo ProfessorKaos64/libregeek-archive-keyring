@@ -1,3 +1,9 @@
+libregeek-archive-keyring (0.6.0-1) brewmaster; urgency=low
+
+  * New personal key for mdeguzis@gmail.com 
+
+ -- Michael DeGuzis <mdeguzis@gmail.com>  Sat, 24 Nov 2018 11:11:47 -0500
+
 libregeek-archive-keyring (0.5.0-1) brewmaster; urgency=low
 
   * Keyring expirations updated 
